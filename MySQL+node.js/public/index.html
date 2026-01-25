@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My University</title>
+</head>
+<body>
+
+<h2>Select Faculty</h2>
+
+<select onchange="loadDept(this.value)">
+    <option value="">-- Select Faculty --</option>
+    <option value="Engineering Faculty">Engineering Faculty</option>
+    <option value="LifeScience Faculty">LifeScience Faculty</option>
+    <option value="Science Faculty">Science Faculty</option>
+    <option value="Arts Faculty">Arts Faculty</option>
+</select>
+
+<h3>Departments</h3>
+<ul id="output"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
