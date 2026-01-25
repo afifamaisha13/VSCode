@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=lo, initial-scale=1.0">
-    <title>Document</title>
+    <title>My University</title>
 </head>
 <body>
-    test html maisha
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt expedita quas eius nam perferendis? Ullam autem quos nemo maiores officia error voluptas tempore eum, libero magnam, nam placeat velit aliquam.
+
+<h2>Select Faculty</h2>
+
+<select onchange="loadDept(this.value)">
+    <option value="">-- Select Faculty --</option>
+    <option value="Engineering Faculty">Engineering Faculty</option>
+    <option value="LifeScience Faculty">LifeScience Faculty</option>
+    <option value="Science Faculty">Science Faculty</option>
+    <option value="Arts Faculty">Arts Faculty</option>
+</select>
+
+<h3>Departments</h3>
+<ul id="output"></ul>
+
+<script src="script.js"></script>
+
 </body>
 </html>
